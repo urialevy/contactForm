@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Webpack App</title>
+    <title>Form Validator</title>
   </head>
   <body class="bg-indigo-500 ">
     <div class="flex place-content-center" >
@@ -254,9 +254,15 @@
           <option value="Yemen">Yemen</option>
           <option value="Zambia">Zambia</option>
           <option value="Zimbabwe">Zimbabwe</option></select> <br>
-        <input type="text" name="postcode/ZIP Code" id="postcode" placeholder="Postcode / ZIP Code" required class="w-64"><br>
-        <input type="submit" name="submit" value="Submit" class="w-32" id="submitbtn">
-    </form></div>
+        <input type="text" name="postcode" id="postcode" placeholder="Postcode" required class="w-64" id="postcode"><br>
+        <input type="password" placeholder="Password" required class="w-64" id="password">
+        <input type="password" placeholder="Confirm password" required class="w-64" id="passwordConfirm">
+        <input button type="submit" name="submit" value="Submit" class="w-32 shadow shadow-color: #ef4444;
+        " id="submitbtn">
+        <div class="hidden" id="hiddenerror"></div></div?>
+    </form>
+  
     <script src="bundle.js"></script>
   </body>
 </html>
+
