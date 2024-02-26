@@ -1,0 +1,43 @@
+{
+  "name": "webapp-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve",
+    "start": "webpack serve --open",
+    "git": "git subtree push --prefix dist origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urialevy/webapp-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/urialevy/webapp-template/issues"
+  },
+  "homepage": "https://github.com/urialevy/webapp-template#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "prettier": "^3.1.1",
+    "webpack-dev-middleware": "^7.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "postcss": "^8.4.32",
+    "postcss-loader": "^7.3.4",
+    "postcss-preset-env": "^9.3.0",
+    "style-loader": "^3.3.3",
+    "tailwindcss": "^3.4.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
