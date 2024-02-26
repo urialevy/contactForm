@@ -1,7 +1,7 @@
 {
   "name": "webapp-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is my basic template for a web app. It uses webpack for bundling & running a local server, and tailwindcss in for styling. Stylesheets are loaded with postcss-loader.",
   "main": "src/app.js",
   "scripts": {
     "build": "webpack",
